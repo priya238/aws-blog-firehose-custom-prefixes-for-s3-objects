@@ -20,7 +20,7 @@ while (not done):
     event[u'EventTime'] = datetime.utcfromtimestamp(now).strftime('%Y-%m-%dT%H:%M:%S.%fZ')
     event_str = json.dumps(event)
  
-    client.put_record(DeliveryStreamName='KDFS3customPrefixesExample',
+    client.put_record(DeliveryStreamName='ADFS3customPrefixesExample',
             Record={
                 'Data': event_str
     }
