@@ -1,4 +1,4 @@
-## Custom S3 Prefixes and Kinesis Data Firehose Blog
+## Custom S3 Prefixes and Amazon Data Firehose Blog
 
 Sample code for blog - Custom S3 Prefixes and Kinesis Data Firehose
 
